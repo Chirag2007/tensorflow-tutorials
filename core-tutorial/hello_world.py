@@ -10,6 +10,7 @@ node1 = tf.constant(3.0, dtype=tf.float32)
 node2 = tf.constant(4.0) # also tf.float32 implicitly
 
 # Just prints info about the nodes. Doesn't actually run them.
+# printing ("hello world")
 print(node1, node2)
 
 # Here, we actually run the nodes in a session
