@@ -28,10 +28,12 @@ wheels/
 # PyInstaller
 #  Usually these files are written by a python script from a template
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
+# this acts the import act
 *.manifest
 *.spec
 
-# Installer logs
+# Installer logs 
+# The pip functions help you download the assets in this websites
 pip-log.txt
 pip-delete-this-directory.txt
 
@@ -92,6 +94,7 @@ ENV/
 .spyproject
 
 # Rope project settings
+#these are the ropeproject settings
 .ropeproject
 
 # mkdocs documentation
